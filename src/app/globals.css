@@ -41,6 +41,10 @@ code {
   margin: 16px 0px;
 }
 
+.preview-code p.text {
+  margin-bottom: 16px;
+}
+
 /* Button */
 .primary-btn {
   display: inline-flex;
@@ -116,4 +120,63 @@ code {
   box-shadow: none;
   background-size: initial;
   background-position: initial;
+}
+
+.gray-icon-btn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 2px 2px 12px 0 #4032851f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-icon-btn svg {
+  color: #646d89;
+  font-size: 24px;
+}
+
+.gray-icon-btn .tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background-color: #9aa1b9;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.gray-icon-btn:hover .tooltip {
+  opacity: 1;
+}
+
+.gray-icon-btn.active {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #c70039;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 2px 2px 12px 0 #4032851f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-icon-btn.active svg {
+  color: #fff;
+  font-size: 24px;
 }

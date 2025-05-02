@@ -1,5 +1,8 @@
 import React from "react";
 import PreviewCode from "@/components/PreviewCode";
+import { IoChatbubbleEllipses } from "react-icons/io5";
+import { BsEyeFill } from "react-icons/bs";
+import { FaHeart } from "react-icons/fa6";
 
 export default function ButtonPage() {
   return (
@@ -62,7 +65,7 @@ export default function ButtonPage() {
 
       <hr />
 
-      {/* Element */}
+      {/* Primary Button disabled */}
       <div className="row">
         <div className="container flex">
           <div className="preview w-2/5">
@@ -83,7 +86,7 @@ export default function ButtonPage() {
 }`}</PreviewCode>
 
             <p className="text">
-              HTML : ใช้ได้เฉพาะ <code>&lt;button&gt;</code> เท่านั้น
+              Disabled ใช้ได้เฉพาะ <code>&lt;button&gt;</code> เท่านั้น
             </p>
 
             <PreviewCode language="html">{`<button class="primary-btn" disabled>Submit</button>`}</PreviewCode>
@@ -132,7 +135,7 @@ export default function ButtonPage() {
 }`}</PreviewCode>
 
             <p className="text">
-              HTML : สามารถเรียกใช้งานได้ทั้ง <code>&lt;button&gt;</code> และ <code>&lt;a&gt;</code>
+              สามารถเรียกใช้งานได้ทั้ง <code>&lt;button&gt;</code> และ <code>&lt;a&gt;</code>
             </p>
 
             <PreviewCode language="html">
@@ -145,7 +148,7 @@ export default function ButtonPage() {
 
       <hr />
 
-      {/* Element */}
+      {/* Secondary Button disabled*/}
       <div className="row">
         <div className="container flex">
           <div className="preview w-2/5">
@@ -166,13 +169,143 @@ export default function ButtonPage() {
 }`}</PreviewCode>
 
             <p className="text">
-              HTML : ใช้ได้เฉพาะ <code>&lt;button&gt;</code> เท่านั้น
+              Disabled ใช้ได้เฉพาะ <code>&lt;button&gt;</code> เท่านั้น
             </p>
 
             <PreviewCode language="html">{`<button class="secondary-btn" disabled>Submit</button>`}</PreviewCode>
           </div>
         </div>
       </div>
+
+      <hr />
+
+      {/* Icon Button */}
+      <div className="row">
+        <div className="container flex">
+          <div className="preview w-2/5">
+            <h2>Icon Button</h2>
+            <div className="flex flex-row gap-8">
+              <button className="gray-icon-btn">
+                <IoChatbubbleEllipses />
+                <span className="tooltip">Go to chat</span>
+              </button>
+
+              <a className="gray-icon-btn">
+                <BsEyeFill />
+                <span className="tooltip">See profile</span>
+              </a>
+
+              <button className="gray-icon-btn">
+                <FaHeart />
+                <span className="tooltip">Merry</span>
+              </button>
+
+              <button className="gray-icon-btn active">
+                <FaHeart />
+                <span className="tooltip">Merry</span>
+              </button>
+            </div>
+          </div>
+          <div className="preview-code w-3/5">
+            <p className="text">
+              ติดตั้ง Icon Library ที่ต้องการจะใช่ก่อน ในที่นี้ขอแนะนำ React Icons เพราะมี Icon ให่้เลือกเยอะมาก คำสั่งที่ใช้ในการติดตั้งคือ
+            </p>
+            <PreviewCode language="command line">npm i react-icons</PreviewCode>
+            <p className="text">CSS</p>
+            <PreviewCode language="css">{`.gray-icon-btn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 2px 2px 12px 0 #4032851f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-icon-btn svg {
+  color: #646d89;
+  font-size: 24px;
+}
+
+.gray-icon-btn .tooltip {
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background-color: #9aa1b9;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.gray-icon-btn:hover .tooltip {
+  opacity: 1;
+}
+
+.gray-icon-btn.active {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #c70039;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 2px 2px 12px 0 #4032851f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-icon-btn.active svg {
+  color: #fff;
+  font-size: 24px;
+}`}</PreviewCode>
+
+            <p className="text">
+              เวลาเรียกใช้งานต้อง import icon จาก Library มาก่อน จากนั้นจะใช้ Tag <code>&lt;button&gt;</code> หรือ Tag{" "}
+              <code>&lt;a&gt;</code> ก็ได้ ในส่วนของ Tool Tip ก็ใส่ Text ลงไปได้เลยใน <code>&lt;span&gt;</code>
+            </p>
+
+            <p className="text">
+              ใส่ class=active ที่ Tag <code>&lt;button&gt;</code> เพื่อที่จะทำให้ปุ่มเปลี่ยนสี
+            </p>
+
+            <PreviewCode language="html">
+              {`<button className="gray-icon-btn">
+  <IoChatbubbleEllipses />
+  <span className="tooltip">Go to chat</span>
+</button>
+
+<a className="gray-icon-btn">
+  <BsEyeFill />
+  <span className="tooltip">See profile</span>
+</a>
+
+<button className="gray-icon-btn">
+  <FaHeart />
+  <span className="tooltip">Merry</span>
+</button>
+              
+<button className="gray-icon-btn active">
+  <FaHeart />
+  <span className="tooltip">Merry</span>
+</button>`}
+            </PreviewCode>
+          </div>
+        </div>
+      </div>
+
+      <hr />
     </>
   );
 }
