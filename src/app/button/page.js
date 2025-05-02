@@ -2,7 +2,7 @@ import React from "react";
 import PreviewCode from "@/components/PreviewCode";
 import { IoChatbubbleEllipses } from "react-icons/io5";
 import { BsEyeFill } from "react-icons/bs";
-import { FaHeart } from "react-icons/fa6";
+import { IoHeartSharp } from "react-icons/io5";
 
 export default function ButtonPage() {
   return (
@@ -196,12 +196,12 @@ export default function ButtonPage() {
               </a>
 
               <button className="gray-icon-btn">
-                <FaHeart />
+                <IoHeartSharp />
                 <span className="tooltip">Merry</span>
               </button>
 
               <button className="gray-icon-btn active">
-                <FaHeart />
+                <IoHeartSharp />
                 <span className="tooltip">Merry</span>
               </button>
             </div>
@@ -292,12 +292,12 @@ export default function ButtonPage() {
 </a>
 
 <button className="gray-icon-btn">
-  <FaHeart />
+  <IoHeartSharp />
   <span className="tooltip">Merry</span>
 </button>
               
 <button className="gray-icon-btn active">
-  <FaHeart />
+  <IoHeartSharp />
   <span className="tooltip">Merry</span>
 </button>`}
             </PreviewCode>
