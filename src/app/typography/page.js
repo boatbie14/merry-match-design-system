@@ -20,7 +20,7 @@ export default function TypoPage() {
             <p className="text">
               <b>1. Built-in Font Loader หรือ Next.js optimized font loading</b>
               <br />
-              Next.js optimized font loading หรือที่เรียกว่า "Font Optimization" คือฟีเจอร์พิเศษของ Next.js
+              Next.js optimized font loading หรือที่เรียกว่า &ldquo;Font Optimization&rdquo; คือฟีเจอร์พิเศษของ Next.js
               ที่ช่วยจัดการการโหลดฟอนต์ให้มีประสิทธิภาพสูงสุด ผ่านโมดูล <code>next/font</code>
             </p>
             <p className="text">
