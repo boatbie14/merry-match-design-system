@@ -9,7 +9,7 @@ export default function Home() {
             <h1>
               Merry <span className="text-[#C70039] font-extrabold">Match</span>
             </h1>
-            <p className="text-base md:text-lg text-black mt-1">Design System</p>
+            <p className="text-base md:text-lg text-black mt-[-8px]">Design System</p>
           </div>
         </div>
 
