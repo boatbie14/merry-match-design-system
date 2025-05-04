@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Logo / Brand Name - Left Side */}
         <div className="flex items-center">
           <Link href="/" className="text-xl">
-            Merry <span className="font-extrabold text-[#C70039]">Match</span>
+            Merry. <span className="font-extrabold text-[#C70039]">Match</span>
             <p className="text-xs">Design System</p>
           </Link>
         </div>
