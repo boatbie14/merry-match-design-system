@@ -6,6 +6,7 @@ export default function ColorPage() {
       <div className="row">
         <div className="container">
           <h1 className="text-3xl font-bold mb-8">Color</h1>
+          <p>Comming soon..</p>
         </div>
       </div>
     </>
