@@ -265,7 +265,7 @@ export default function ButtonPage() {
 
               <button className="gray-icon-btn active">
                 <IoHeartSharp />
-                <span className="tooltip">Merry</span>
+                <span className="tooltip">Merry Active</span>
               </button>
             </div>
           </div>

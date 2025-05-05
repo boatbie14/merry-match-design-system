@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
   );
 }`}</PreviewCode>
 
-            <p className="text mb-4">แล้วเวลาใช่้งานก็ไม่ต้องประกาศ Font อะไรแล้วเพราะมีการประกาศ Font แล้วที่ body</p>
+            <p className="text mb-4">แล้วเวลาใช้งานก็ไม่ต้องประกาศ Font อะไรแล้วเพราะมีการประกาศ Font แล้วที่ body</p>
 
             <p className="text mb-4">ตัวอย่าง</p>
 

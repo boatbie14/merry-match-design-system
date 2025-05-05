@@ -272,7 +272,7 @@ import { IoLogOutOutline } from "react-icons/io5";
       <div className="row">
         <div className="container flex">
           <div className="preview w-2/5">
-            <h2>Social Icon</h2>
+            <h2>Social Icon on Footer</h2>
             <div className="flex flex-row gap-4">
               <MdFacebook size={48} color="#C70039" />
               <PiInstagramLogoFill size={48} color="#C70039" />
