@@ -179,7 +179,6 @@ export default function ButtonPage() {
       </div>
 
       <hr />
-      <hr />
 
       {/* Ghost Button */}
       <div className="row">
@@ -241,7 +240,6 @@ export default function ButtonPage() {
         </div>
       </div>
 
-      <hr />
       <hr />
 
       {/* Icon Button */}

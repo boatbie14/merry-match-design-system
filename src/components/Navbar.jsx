@@ -10,12 +10,13 @@ const Navbar = () => {
   // Array of menu items
   const menuItems = [
     { name: "Home", path: "/" },
+    { name: "Layout", path: "/layout" },
     { name: "Typography", path: "/typography" },
-    { name: "Color", path: "/color" },
     { name: "Buttons", path: "/button" },
     { name: "Inputs", path: "/input" },
     { name: "Icons", path: "/icon" },
     { name: "Upload", path: "/upload" },
+    { name: "Color", path: "/color" },
   ];
 
   return (
