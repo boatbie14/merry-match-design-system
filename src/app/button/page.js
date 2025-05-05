@@ -3,6 +3,7 @@ import PreviewCode from "@/components/PreviewCode";
 import { IoChatbubbleEllipses } from "react-icons/io5";
 import { BsEyeFill } from "react-icons/bs";
 import { IoHeartSharp } from "react-icons/io5";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 export default function ButtonPage() {
   return (
@@ -177,6 +178,70 @@ export default function ButtonPage() {
         </div>
       </div>
 
+      <hr />
+      <hr />
+
+      {/* Ghost Button */}
+      <div className="row">
+        <div className="container flex">
+          <div className="preview w-2/5">
+            <h2>Ghost Button</h2>
+            <button className="ghost-btn">
+              <IoArrowBackOutline /> Ghost Button
+            </button>
+            <br />
+            <button className="ghost-btn" disabled>
+              <IoArrowBackOutline /> Ghost Button Disabled
+            </button>
+          </div>
+          <div className="preview-code w-3/5">
+            <p className="text">CSS</p>
+            <PreviewCode language="css">{`.ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: #c70039;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.ghost-btn:hover {
+  color: #ff1659;
+}
+
+.ghost-btn:focus {
+  color: #95002b;
+  outline: none;
+}
+
+.ghost-btn:disabled {
+  color: #9aa1b9;
+  cursor: not-allowed;
+}`}</PreviewCode>
+
+            <p className="text">
+              Disabled ใช้ได้เฉพาะ <code>&lt;button&gt;</code> เท่านั้น
+            </p>
+
+            <PreviewCode language="html">
+              {`<button className="ghost-btn">
+  <IoArrowBackOutline /> Ghost Button
+</button>
+
+<button className="ghost-btn" disabled>
+  <IoArrowBackOutline /> Ghost Button Disabled
+</button>`}
+            </PreviewCode>
+          </div>
+        </div>
+      </div>
+
+      <hr />
       <hr />
 
       {/* Icon Button */}

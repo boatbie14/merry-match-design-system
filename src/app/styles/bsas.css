@@ -124,6 +124,34 @@ code {
   background-position: initial;
 }
 
+.ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: #c70039;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.ghost-btn:hover {
+  color: #ff1659;
+}
+
+.ghost-btn:focus {
+  color: #95002b;
+  outline: none;
+}
+
+.ghost-btn:disabled {
+  color: #9aa1b9;
+  cursor: not-allowed;
+}
+
 .gray-icon-btn {
   position: relative;
   width: 48px;
