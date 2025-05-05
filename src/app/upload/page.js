@@ -195,7 +195,12 @@ export default function UploadPage() {
         <div className="container">
           <Box sx={{ width: "100%", margin: "0 auto" }}>
             <h1 className="text-3xl font-bold mb-8">Upload</h1>
-            <p className="text mb-7">ต้องติดตั้ง Lib @dnd-kit ที่เป็นชุดไลบรารีสำหรับการสร้างฟีเจอร์ลากและวาง (drag and drop) ใน React</p>
+            <p className="text mb-7">
+              ต้องติดตั้ง Lib @dnd-kit ที่เป็นชุดไลบรารีสำหรับการสร้างฟีเจอร์ลากและวาง (drag and drop) ใน React แล้วก็ดู Code ได้ใน{" "}
+              <a href="https://github.com/boatbie14/merry-match-design-system" target="_blank">
+                Github
+              </a>
+            </p>
 
             <PreviewCode language="command line">{`npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities`}</PreviewCode>
 
