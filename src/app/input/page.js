@@ -451,7 +451,10 @@ export default function InputPage() {
             ใน <code>src/app/input/page.js</code> ถ้าเอา Code ไปใช้ให้ระวังในส่วนของการ Import component ด้วนเพราะต้องติดตั้งเพิ่มอย่าง{" "}
             <code>{`import {DatePicker} from "@mui/x-date-pickers/DatePicker";`}</code>
             <br />
-            ถ้าเป็นไปได้ก็อยากจะแยก Input แต่ละอันเป็น component เพราะจะต้องเรียกใช้บ่อย ๆ
+            ถ้าเป็นไปได้ก็อยากจะแยก Input แต่ละอันเป็น component เพราะจะต้องเรียกใช้บ่อย ๆ และ Code Input ต่าง ๆ เหล่านี้ยาวมาก ๆ แค่ UI
+            นี้ก็เกือบ 1000 บรรทัดแล้ว
+            <br />
+            สามารถลองใส่ข้อมูลแล้วกด Submit ให้แสดง JSON Data ได้เพื่อเอาไปแกะตอนทำ Form
           </p>
           <div className="w-full flex flex-row">
             <div className="w-1/2">

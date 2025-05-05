@@ -17,6 +17,69 @@ export default function Home() {
           A comprehensive collection of reusable components and design standards to ensure consistency across the Merry Match platform. This
           design system helps developers build beautiful, accessible, and consistent user experiences quickly.
         </p>
+        <br />
+        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          หน้านี้ไม่มีอะไรแค่อยากทำไว้เท่ ๆ เดี๋ยวรวม Link ที่เกี่ยวข้องไว้ให้จะได้หาง่าย ๆ กรั๊ฟ
+        </p>
+        <ul className="max-w-3xl mx-auto">
+          <li>
+            <a href="https://trello.com/b/E1IKit6G/fsd8-merry-match" target="_blank" className="text-lg text-[#c80139] max-w-3xl mx-auto">
+              trello
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.figma.com/design/hrHQRTVfoR2fiYwjQCHHWG/Merry-Match?node-id=0-1&t=7JSpsp1Pt0Jwecea-0"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto"
+            >
+              Figma
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://techup.notion.site/Merry-Match-Online-Dating-Web-App-1dfa2eebf310817b967bfb2da475cf0f"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto"
+            >
+              โจทย์
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://docs.google.com/document/d/1n0LgpUkPma2diSFbdm9Z4K_hmYBV_H1oHFw0ZyBmcek/edit?usp=sharing"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto"
+            >
+              Tech Stack
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1v0T7D3sI3h970NypxGFELlHhPfN4kLcukZiiFk9PK1o/edit?usp=sharing"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto"
+            >
+              Team Norm
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/boatbie14/merry-match-design-system"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto"
+            >
+              Github สำหรับดู Code UI
+            </a>
+          </li>
+        </ul>
+
+        <br />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
