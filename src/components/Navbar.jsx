@@ -15,6 +15,7 @@ const Navbar = () => {
     { name: "Buttons", path: "/button" },
     { name: "Inputs", path: "/input" },
     { name: "Icons", path: "/icon" },
+    { name: "Upload", path: "/upload" },
   ];
 
   return (
