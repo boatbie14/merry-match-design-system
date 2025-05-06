@@ -77,6 +77,16 @@ export default function Home() {
               Github สำหรับดู Code UI
             </a>
           </li>
+
+          <li>
+            <a
+              href="https://github.com/boatbie14/merry-match"
+              target="_blank"
+              className="text-lg text-[#c80139] max-w-3xl mx-auto font-bold"
+            >
+              Github ของ Project
+            </a>
+          </li>
         </ul>
 
         <br />
