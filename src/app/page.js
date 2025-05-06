@@ -60,7 +60,7 @@ export default function Home() {
 
           <li>
             <a
-              href="https://docs.google.com/spreadsheets/d/1v0T7D3sI3h970NypxGFELlHhPfN4kLcukZiiFk9PK1o/edit?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/1Uev57Mw3jp7DQCpl2-cISz_W_YeEBdcHw_CEAs3BJXE/edit?usp=sharing"
               target="_blank"
               className="text-lg text-[#c80139] max-w-3xl mx-auto"
             >
