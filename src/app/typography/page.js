@@ -218,13 +218,13 @@ p {
               <b>section-title</b>
             </p>
 
-            <div className="subhead text-[#7B4429]">Login</div>
-            <h1 className="main-header text-[#A62D82]"> Welcome back to Merry Match</h1>
+            <div className="subhead text-[#7B4429]">Register</div>
+            <h1 className="main-header text-[#A62D82]">Join us and start matching </h1>
 
-            <h2 className="section-title">Section-title</h2>
+            <h2 className="section-title">Basic Information</h2>
           </div>
           <div className="preview-code w-3/5">
-            <p className="text mb-4">มันคือตรงคำว่า LOGIN</p>
+            <p className="text mb-4">มันคือตรงคำว่า Basic Information</p>
             <PreviewCode language="jsx">{`.section-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
@@ -234,7 +234,7 @@ p {
   color: #A62D82;
 }`}</PreviewCode>
 
-            <PreviewCode language="html">{`<h2 className="section-title">Section-title</h2>`}</PreviewCode>
+            <PreviewCode language="html">{`<h2 className="section-title">Basic Information</h2>`}</PreviewCode>
           </div>
         </div>
       </div>
