@@ -29,6 +29,7 @@ export default function ButtonPage() {
   justify-content: center;
   gap: 8px;
   padding: 12px 24px;
+  font-size: 16px;
   color: #fff;
   font-weight: 700;
   border-radius: 99px;
@@ -112,6 +113,7 @@ export default function ButtonPage() {
   justify-content: center;
   gap: 8px;
   padding: 12px 24px;
+  font-size: 16px;
   color: #95002b;
   font-weight: 700;
   border-radius: 99px;
@@ -199,7 +201,7 @@ export default function ButtonPage() {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 600;
   background: none;
   border: none;

@@ -54,6 +54,7 @@ code {
   justify-content: center;
   gap: 8px;
   padding: 12px 24px;
+  font-size: 16px;
   color: #fff;
   font-weight: 700;
   border-radius: 99px;
@@ -92,6 +93,7 @@ code {
   justify-content: center;
   gap: 8px;
   padding: 12px 24px;
+  font-size: 16px;
   color: #95002b;
   font-weight: 700;
   border-radius: 99px;
@@ -128,7 +130,7 @@ code {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 600;
   background: none;
   border: none;
@@ -235,4 +237,42 @@ code {
   width: 20px;
   height: 20px;
   color: #fff;
+}
+
+/* Text */
+
+.main-header {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 125%;
+  letter-spacing: -2%;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+@media (max-width: 767px) {
+  .main-header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+  }
+}
+
+.subhead {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -2%;
+  color: #a62d82;
 }

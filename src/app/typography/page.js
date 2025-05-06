@@ -147,6 +147,97 @@ p {
           </div>
         </div>
       </div>
+
+      <hr />
+
+      <div className="row">
+        <div className="container flex gap-8">
+          <div className="preview w-2/5 leading-10">
+            <p className="text">
+              <b>Header ต่าง ๆ </b>
+            </p>
+
+            <h1 className="main-header text-[#A62D82]">Main : Welcome back to Merry Match</h1>
+          </div>
+          <div className="preview-code w-3/5">
+            <PreviewCode language="jsx">{`.main-header {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 125%;
+  letter-spacing: -2%;
+  font-variant-numeric: lining-nums proportional-nums;
+  color:#A62D82;
+}
+
+@media (max-width: 767px) {
+  .main-header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+  }
+}`}</PreviewCode>
+
+            <PreviewCode language="html">{`<h1 className="main-header text-[#A62D82]">Main : Welcome back to Merry Match</h1>`}</PreviewCode>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="container flex gap-8">
+          <div className="preview w-2/5 leading-10">
+            <p className="text">
+              <b>subhead</b>
+            </p>
+
+            <div className="subhead text-[red]">Login</div>
+            <h1 className="main-header text-[#A62D82]"> Welcome back to Merry Match</h1>
+          </div>
+          <div className="preview-code w-3/5">
+            <p className="text mb-4">มันคือตรงคำว่า LOGIN</p>
+            <PreviewCode language="jsx">{`.subhead {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color:#7B4429;
+}`}</PreviewCode>
+
+            <PreviewCode language="html">{` <div className="subhead">Login</div>`}</PreviewCode>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="container flex gap-8">
+          <div className="preview w-2/5 leading-10">
+            <p className="text">
+              <b>section-title</b>
+            </p>
+
+            <div className="subhead text-[#7B4429]">Login</div>
+            <h1 className="main-header text-[#A62D82]"> Welcome back to Merry Match</h1>
+
+            <h2 className="section-title">Section-title</h2>
+          </div>
+          <div className="preview-code w-3/5">
+            <p className="text mb-4">มันคือตรงคำว่า LOGIN</p>
+            <PreviewCode language="jsx">{`.section-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -2%;
+  color: #A62D82;
+}`}</PreviewCode>
+
+            <PreviewCode language="html">{`<h2 className="section-title">Section-title</h2>`}</PreviewCode>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
